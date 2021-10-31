@@ -1,0 +1,1 @@
+SELECT Production_id, SUM(QTY) AS SUMMARY FROM tbl_info GROUP BY Production_id
